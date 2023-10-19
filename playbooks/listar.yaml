@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: listar archivos en la carpeta por defecto
+    command: ls

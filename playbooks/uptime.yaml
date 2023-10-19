@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name: tiempo en funcionamiento
+    command: uptime

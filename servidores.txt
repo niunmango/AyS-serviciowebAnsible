@@ -1,0 +1,9 @@
+[controller]
+control ansible_connection=local
+
+[loadblancer]
+lb01 ansible_user=ramiro
+
+[webserver]
+app01 ansible_user=ramiro
+app02 ansible_user=ramiro
