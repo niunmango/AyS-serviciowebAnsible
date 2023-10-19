@@ -7,4 +7,4 @@ Uso de ejemplo:
 
 `$ ansible-playbook -v playbooks/uptime.yml`
 
-Si el usuario no es root las tareas que incluyan `become: true`` deberán ejecutarse con el modificador `-K`
+Si el usuario no es root las tareas que incluyan `become: true` deberán ejecutarse con el modificador `-K`
