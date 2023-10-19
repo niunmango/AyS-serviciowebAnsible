@@ -1,7 +1,7 @@
 [controller]
 control ansible_connection=local
 
-[loadblancer]
+[loadbalancer]
 lb01 ansible_user=ramiro
 
 [webserver]
