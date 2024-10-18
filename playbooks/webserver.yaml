@@ -2,6 +2,10 @@
 - hosts: webserver
   become: true
   tasks:
+    - name: Establecer el nombre del host
+      ansible.builtin.hostname:
+        name: "{{ inventory_hostname }}"
+        
     - name: install apache
       apt: name=apache2 state=present update_cache=yes
     - name: delete index.html
